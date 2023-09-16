@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import Complimentary from './components/Complimentary';
+import AthenaeumSection from './sections/AthenaeumSection';
+import FacialAppointments from './sections/FacialAppointments';
+import Footer from './sections/Footer';
+import Hompage from './sections/Hompage';
+import Navbar from './sections/Navbar';
+import ScentsSection from './sections/ScentsSection';
+import SkinCareSection from './sections/SkinCareSection';
+import StorelocatorSection from './sections/StorelocatorSection';
+import WarmClimatesSection from './sections/WarmClimatesSection';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className=''>
+      
+      <Navbar/>
+      <Hompage/>
+      <ScentsSection/>
+      <SkinCareSection/>
+      <AthenaeumSection/>
+      <WarmClimatesSection/>
+      <StorelocatorSection/>
+      <FacialAppointments/>
+      <Footer/>
     </div>
   );
 }

@@ -1,13 +1,36 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: Zapf Humanist,serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #fffef2;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 0;
+  background: #7d7d7dc9;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 0;
+  background: #000000;
+}
+
+::-webkit-scrollbar {
+  height: 3px;              /* height of horizontal scrollbar ← You're missing this */
+  width: 15px;               /* width of vertical scrollbar */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.container {
+  padding-left: 10px;
+  padding-right: 10px;
 }

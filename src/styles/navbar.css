@@ -1,0 +1,103 @@
+.navList {
+  display: flex;
+  align-items: center;
+}
+
+.navLeftContent{
+    display: flex;
+}
+
+.navLogoXS{
+    display: none;
+    font-family: Suisse,sans-serif;
+}
+.navListData {
+  list-style: none;
+  padding-right: 23px;
+  font-weight: 600;
+  color: #333333;
+  font-size: 14px;
+  font-family: Suisse Medium, sans-serif !important;
+}
+
+.navListRightXS{
+    display: none;
+}
+
+.navListDataRight {
+  list-style: none;
+  padding-right: 23px;
+  font-weight: 600;
+  color: #333333;
+  font-size: 14px;
+  font-family: Suisse Medium, sans-serif !important;
+}
+
+.navListSmall {
+  display: none;
+}
+
+.navRightContent {
+  display: flex;
+}
+
+.navbar {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1158px) {
+  .navListData {
+    display: none;
+  }
+
+  .navListSmall {
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+  }
+
+  .navListDataSmall {
+    list-style: none;
+    padding-right: 23px;
+    font-weight: 600;
+    color: #333333;
+    font-size: 14px;
+    font-family: Suisse Medium, sans-serif !important;
+  }
+}
+
+
+@media  screen and (max-width: 700px) {
+
+    .navListRightXS{
+        color: azure;
+        display: flex;
+        align-items: center;
+    }
+
+    .navListDataRight {
+        display: none;
+      }
+
+      .navListDataRightXS{
+        padding-right: 25px;
+      }
+
+      .navListSmall{
+        display: none;
+      }
+
+      .navLogoXS{
+        color: azure;
+        display: block;
+      }
+
+      .navbar{
+        position: absolute;
+      }
+}

@@ -1,0 +1,118 @@
+.homeImg {
+  width: 100%;
+  height: 650px;
+  object-fit: cover;
+}
+
+.homeSection {
+  height: 650px;
+}
+
+
+
+.homeTitle{
+margin-top: 15px;
+}
+
+.inner {
+  position: absolute;
+}
+
+.homeContent {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  align-items: flex-start;
+  margin-top: 120px;
+  top: 120px;
+  left: 50px;
+  color: #fffef2;
+}
+
+.homeIntro {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 90px;
+  width: 400px;
+}
+
+.homeContentXS{
+  display: none;
+}
+
+.homeIntroText {
+  margin-bottom: 0;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.homeIntroTitle {
+  margin-bottom: 2px;
+  font-size: 36px;
+  font-weight: 500;
+
+}
+
+.homeIntropara{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 1px;
+}
+
+.homeTitle {
+  font-size: 40px;
+}
+
+.btn{
+  display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    font-weight: 500;
+    padding-right: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.597);
+}
+
+.btn:hover{
+    background:#fff;
+    color: black;
+    cursor: pointer;
+}
+
+.xsButton{
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+  border: 1px solid white;
+}
+
+@media screen and (max-width: 700px) {
+    .homeContent{
+        display: none;
+    }
+
+    .homeContentXS{
+      font-family: Suisse Regular,sans-serif;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      margin-top: 200px;
+      background: #5b3e45;
+      color: #fff;
+      padding: 30px;
+      bottom: 210px;
+    }
+
+    .xsContentIntro{
+      font-weight: lighter;
+      text-size-adjust: 100%
+    }
+
+    .homeImg {
+      width: 100%;
+      height: 45%;
+      object-fit: cover;
+      background-position: center;
+    }
+}
